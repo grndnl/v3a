@@ -1,8 +1,19 @@
 # Homework 6
 
+# If you do not yet have your AWS credits, complete and submit part 1 of the homework.  For part 2, please just comment that you do not have any AWS credits.
+
+
 This homework covers some use of GStreamer and model optimization.  It builds on the week 6 lab and completing the lab first is hightly recommended.   
 
 This is an ungraded assignment
+
+
+2-14-2023 Note: It appears a recent update broke a number of packages with Ubuntu 20.04, at least on the ARM based machines, e.g. the Apple M1.  It is recommended that your VM be based on Ubuntu 22.04.  If you are running on a M1/M2 and using VMWare Fusion, you will need to first install 20.04 and then upgrade to 22.04 as there have been reports of Fusion not booting the installer.  There are no issues with 22.04 if you are using Parallels.
+
+See [here](https://ubuntu.com/tutorials/upgrading-ubuntu-desktop#1-before-you-start) to upgrade from 20.04 to 22.04.
+
+Due to this issue and the overall cameral peformace, for this lab/homework, I strongly recommend using Parallels over VMWare Fusion if you are using a M1 or M2 mac.
+
 
 ## Part 1: GStreamer
 
